@@ -8,7 +8,7 @@ for line in fileinput.FileInput(file_name,inplace=1):
 		line = line.replace('Price|Product','Price|Product'+'\n'+':-|:-')
 
 
-	print(line),	 
+	print(line)	 
 
 	
 
