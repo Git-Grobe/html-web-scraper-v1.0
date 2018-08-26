@@ -1,6 +1,6 @@
 import fileinput
 
-file_name = '/Users/scottgrobe/Desktop/freestyle_clearence_webscrape/clearence_product_list.txt'
+file_name = '/Users/Name/Desktop/freestyle_clearence_webscrape/clearence_product_list.txt'
 for line in fileinput.FileInput(file_name,inplace=1):
 	if '|' in line:
 		line = line.rstrip()
