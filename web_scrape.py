@@ -16,4 +16,4 @@ for each in soup_data:
     
     df = df.append(pd.DataFrame({'Price': each_price, 'Product': product_name}, index = [0]), ignore_index = True)
 
-df.to_csv('clearence_product_pricing_test_3.txt', sep='|', index = False)
+df.to_csv('clearence_product_list.txt', sep='|', index = False)
